@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="pulse" aria-hidden="true"></span>
+    <div>
+      <h1>Token Radar</h1>
+      <p class="tagline">pre-token protocols ranked by implied value</p>
+    </div>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+<nav class="toolbar" id="toolbar" aria-label="board controls"></nav>
+<main id="board" tabindex="-1" aria-busy="true"></main>
+<aside id="detail" class="drawer" hidden aria-label="protocol detail"></aside>
+<div id="scrim" class="scrim" hidden></div>
+<footer class="foot" id="foot"></footer>
+<noscript><p class="noscript">Token Radar needs JavaScript: the board is computed and rendered in your browser from the sealed snapshot.</p></noscript>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
